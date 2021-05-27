@@ -43,6 +43,9 @@
                              type="XMLMAPPER"/>
 
         <table tableName="user_info">
+        <generatedKey column="id" sqlStatement="JDBC"/>
+    </table>
+        <table tableName="sys_org">
             <generatedKey column="id" sqlStatement="JDBC"/>
         </table>
     </context>
